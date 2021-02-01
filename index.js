@@ -33,7 +33,7 @@ class SortedList {
   }
 
   sum() {
-    return this.items.reduce((acumulator, currValue) => { return acumulator += currValue; }, 0);
+    return this.items.reduce((acumulator, currValue) => acumulator += currValue, 0);
   }
 
   avg() {
